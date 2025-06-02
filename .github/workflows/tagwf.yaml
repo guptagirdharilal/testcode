@@ -23,6 +23,10 @@ on:
         type: environment
         default: dev
         required: true
+        options:
+          - dev
+          - uat
+          - prod
 
 jobs:
   print-tag:
